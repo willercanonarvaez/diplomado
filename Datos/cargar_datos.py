@@ -68,3 +68,4 @@ def show_data_tab():
     else:
         # Mensaje informativo si aún no se ha presionado el botón
         st.info("Presiona el botón para iniciar la carga.")
+        

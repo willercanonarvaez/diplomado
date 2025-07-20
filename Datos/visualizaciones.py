@@ -123,3 +123,4 @@ def show_visualization_tab():
     )
 
     st.plotly_chart(fig2, use_container_width=True)
+    

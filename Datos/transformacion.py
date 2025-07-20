@@ -184,3 +184,4 @@ def show_transform_tab():
     resumen = df_fact_ext.groupby(['departamento', 'a_o'])[
         ['tasa_matriculaci_n_5_16', 'cobertura_neta', 'cobertura_bruta']].mean().reset_index()
     st.dataframe(resumen.head(20))
+    
