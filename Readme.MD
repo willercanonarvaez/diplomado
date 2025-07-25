@@ -51,7 +51,7 @@ Se implementó una base SQLite para realizar consultas SQL:
 Se incluyeron descripciones para interpretar cobertura, brechas educativas y desafíos territoriales, destacando departamentos que superan el 95% de cobertura.
 
 ---
-# Trabajo streamli
+# Trabajo streamlit
 
 Se desarrolló un trabajo adicional donde se implementó la misma base de datos del modelo dimensional en educación. En esta ocasión, el objetivo fue construir una aplicación en Streamlit estructurada en diferentes archivos .py. En primer lugar, se cargó la base de datos original; posteriormente, se realizó el proceso de limpieza, creación de dimensiones y construcción de la tabla de hechos. A partir de allí, se diseñaron diversos gráficos interactivos con un enfoque innovador. No solo se buscó interactividad, sino también coherencia en la selección de variables, de manera que cada visualización permitiera interpretar fenómenos educativos relevantes y generara resultados precisos y comprensibles.
 
