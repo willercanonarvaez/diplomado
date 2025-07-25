@@ -13,7 +13,9 @@ def show_visualization_tab():
     dim_geo = st.session_state['dim_geo']
     dim_tiempo = st.session_state['dim_tiempo']
 
+    # Merge y limpieza
     df = df_fact.merge(dim_geo, on='id_geo').merge(dim_tiempo, on='id_tiempo')
+    df['departamento'] = df['departamento'].str.replace(",", "").str.strip().str.title()
 
     # ================================
     # PRIMER GRÁFICO
@@ -123,4 +125,3 @@ def show_visualization_tab():
     )
 
     st.plotly_chart(fig2, use_container_width=True)
-    
