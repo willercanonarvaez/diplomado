@@ -55,6 +55,10 @@ Se incluyeron descripciones para interpretar cobertura, brechas educativas y des
 
 Se desarrolló un trabajo adicional donde se implementó la misma base de datos del modelo dimensional en educación. En esta ocasión, el objetivo fue construir una aplicación en Streamlit estructurada en diferentes archivos .py. En primer lugar, se cargó la base de datos original; posteriormente, se realizó el proceso de limpieza, creación de dimensiones y construcción de la tabla de hechos. A partir de allí, se diseñaron diversos gráficos interactivos con un enfoque innovador. No solo se buscó interactividad, sino también coherencia en la selección de variables, de manera que cada visualización permitiera interpretar fenómenos educativos relevantes y generara resultados precisos y comprensibles.
 
+# Ingreso para la app
+
+Para poder ingresar a la app de streamlit debemos acceder a todos los .py, los vas a poder incontrar en la carpeta de Datos donde los vas a poder descargar luego de descargarlos podras ver la aplicación donde vas a poder encontrar la siguiente información a continuación.
+
 ### 2. `app.py` y módulos `.py` auxiliares
 Aplicación construida con **Streamlit** para explorar de forma interactiva los datos transformados. Dividida en pestañas:
 
